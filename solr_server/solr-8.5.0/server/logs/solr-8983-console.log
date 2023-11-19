@@ -1,0 +1,13 @@
+OpenJDK 64-Bit Server VM warning: -XX:+UseLargePages not supported in this VM
+2023-11-19 00:36:06.849 INFO  (main) [   ] o.e.j.u.log Logging initialized @957ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-11-19 00:36:07.008 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 19.0.2+7-44
+2023-11-19 00:36:07.025 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/vinayedupuganti/Documents/SWM_Project/solr_server/solr-8.5.0/server/contexts/] at interval 0
+2023-11-19 00:36:07.359 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2023-11-19 00:36:07.369 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2023-11-19 00:36:07.369 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2023-11-19 00:36:07.370 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2023-11-19 00:36:07.422 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2023-11-19 00:36:07.426 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.5.0
+2023-11-19 00:36:07.426 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2023-11-19 00:36:07.426 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/vinayedupuganti/Documents/SWM_Project/solr_server/solr-8.5.0
+2023-11-19 00:36:07.427 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2023-11-19T00:36:07.426962Z
