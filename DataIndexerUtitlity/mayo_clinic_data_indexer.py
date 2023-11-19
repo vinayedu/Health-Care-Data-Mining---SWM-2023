@@ -3,7 +3,7 @@ import os
 import json
 import time
 
-from MetaMapWrapper import MetaMapWrapper
+from MetaMapUtility import MetaMapWrapper
 
 CURRENT_DIR = os.path.dirname(__file__)
 MAYO_CLINIC_HOME_PAGE = 'https://www.mayoclinic.org'
