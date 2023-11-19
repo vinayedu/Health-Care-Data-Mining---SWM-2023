@@ -2,7 +2,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib import parse
 from sys import argv
 import json
-from MetaMapWrapper import MetaMapWrapper
+from MetaMapUtility import MetaMapWrapper
 from PPRSimilarSymptoms import PPRSimilarSymptoms
 import networkx as nx
 import pickle
