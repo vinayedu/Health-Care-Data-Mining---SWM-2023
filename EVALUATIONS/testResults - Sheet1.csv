@@ -1,0 +1,21 @@
+Disease(Output),Symptoms resulted,Result
+Influenza (Flu),"Fever, Cough, Sore throat, Fatigue",Good
+Diabetes,"Excessive thirst, Frequent urination, Slow wound healing",Good
+Hypertension (High Blood Pressure),"Headaches, Chest pain, Dizziness, Shortness of breath",Good
+Asthma,"Wheezing, Shortness of breath, Coughing, Chest tightness",Good
+Arthritis,"Joint pain, Joint stiffness, Swelling, Decreased range of motion",Good
+Alzheimer's Disease,"Memory loss, Confusion, Difficulty with language, Impaired judgment",Good
+Heart Disease,"Chest pain or discomfort, Shortness of breath, Fatigue, Irregular heartbeat",Good
+COPD (Chronic Obstructive Pulmonary Disease),"Chronic cough, Shortness of breath, Excessive mucus production",Good
+Rheumatoid Arthritis,"Joint pain, Joint swelling, Morning stiffness, Fatigue",Good
+Leukemia,"Fatigue, Easy bruising or bleeding, Frequent infections, Swollen lymph nodes ",Good
+Autism Spectrum Disorder,"Social challenges, Repetitive behaviors, Communication difficulties",Good
+Multiple Sclerosis (MS) ,"Fatigue, Numbness or tingling, Muscle weakness, Difficulty with coordination and balance ",Good
+Schizophrenia,"Delusions, Hallucinations, Disorganized thinking, Reduced emotional expression",Good
+Celiac Disease,"Digestive problems, Abdominal pain, Diarrhea, Skin rashes",Good
+Migraine,"Persistent sadness, Loss of interest in activities, Changes in appetite ",Bad
+Parkinson's Disease,"Fractures (especially in the spine, hip, or wrist), Loss of height",Bad
+Crohn's Disease,"Joint pain, Joint swelling, Morning stiffness, Fatigue",Bad
+Lupus (Systemic Lupus Erythematosus),"Persistent sadness, Loss of interest in activities, Changes in appetite and sleep patterns, Fatigue",Bad
+Depression,"Fractures (especially in the spine, hip, or wrist), Loss of height, Back pain",Bad
+Osteoporosis,"Joint pain and swelling, Skin rashes, often on the face (butterfly rash), Fatigue, Kidney problems",Bad
