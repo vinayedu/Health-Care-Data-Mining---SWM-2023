@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mininig Healthcare Websites</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha256-cVl2NB+LyRiUpwyvG8PGd3GHvHPbI5m7kcBR1i9MC7E=" crossorigin="anonymous">
+    <!-- JavaScripts -->
+    <!-- Third-party JS frameworks, https://sweetalert.js.org/-->
+    <script src="./js/jquery-3.5.0.min.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
+    <!-- project JS source codes-->
+    <script src="./js/request_handlers.js"></script>
+    <script src="./js/search.js"></script>
+</head>
+<body>
+
+<!--Title just above the search box-->
+<h2>Disease and Drug Search</h2>
+
+<div class="search_container">
+    <div class="search_option">
+            <input type="radio" name="search_selection" id="disease_search" value="disease_search" checked="checked" onclick="searchOptionChange(this.id)">
+            <label for="disease_search">Disease Search</label>
+
+            <input type="radio" name="search_selection" id="drug_search" value="drug_search" onclick="searchOptionChange(this.id)">
+            <label for="drug_search">Drug Search</label>
+    </div>
+
+    <div class="search">
+
+        <input id="search_box" type="text" name="search_query" class="searchTerm" placeholder="Type the symptoms here..."
+               spellcheck="false">
+        <button id="search_button" type="submit" class="searchButton" onclick="sendSearchRequest()">
+            <!-- uses font awesome search lens-->
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+</div>
+
+<!--related symptom suggestions-->
+<div class="search_container">
+    <label id="related_symptoms"></label>
+</div>
+
+<div class='results'>
+    <div class = 'disease_title'> Possible Diseases </div>
+    <div class = 'posts_title'> Forum Results </div>
+    <div class = 'drug_title'> Drug Results </div>
+</div>
+
+<div class='results'>
+    <div class="response"></div>
+    <div class = "posts"></div>
+    <div class="drug"></div>
+</div>
+
+</body>
+</html>
