@@ -1,1 +1,12 @@
+We have chosen accuracy as the evaluation metric, and manually tested the application which involves choosing a query at random from the scraped forums and calculating the accuracy based on the good (relevant disease outcome) and bad outcomes.
+A query is entered into the search field with a string, and a result is deemed good if relevant disease appears in the top 10 similar diseases; otherwise, it is deemed bad.
+Example Query: "Fast heartbeat, chest pain, dizziness, fatigue, lightheadedness, reduced exercise ability, shortness of breath, weakness."
+a) Good Result: Atrial Fibrillation (AFib)
+Symptoms: Chest pain, dizziness, weariness, lightheadedness, decreased capacity to exercise, shortness of breath, and weakness are some of the symptoms of an arrhythmia (AFib).
+Top 10 - True
+b) Bad Result: Heart Failure
+Symptoms: Shortness of breath, chronic coughing or wheezing, edema (a accumulation of extra fluid in bodily tissues), exhaustion, lack of appetite, nausea, disorientation, poor thinking, and elevated heart rate are some of the symptoms of heart failure.
+Top 10 - False
+The accuracy was approximately 70%, which is computed by dividing the total number of positive results by the total number of queries. 
+Total Accuracy: 14/20 (70%)
 
