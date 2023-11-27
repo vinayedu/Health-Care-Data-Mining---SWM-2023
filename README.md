@@ -41,4 +41,9 @@ MetaMap UMLS is a natural language processing tool developed by the National Lib
 Application in our project:
 Concept Extraction and Mapping: It identifies and classifies medical terms or concepts within unstructured text to the Unified Medical Language System (UMLS) Metathesaurus.
 
+# Running the Application:
+1. Download the apache solar from the repo and step up the solar server. This also downloads the indexed data and appropriate steup files.
+2. Download the war file for the web app and run it in the tomcat server.
+3. Setup the MetaMap in the local and strat up the servers following the MeatMap set instructions.
+
 
